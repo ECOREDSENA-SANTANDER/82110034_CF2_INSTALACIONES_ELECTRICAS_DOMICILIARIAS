@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Presenta los fundamentos de electricidad para instalaciones en casa, organizados en cuatro áreas clave: los principios básicos de la electricidad (características, tipos y energía eléctrica), las leyes fundamentales (Ohm, Kirchhoff, Joule y Watt), los elementos de un circuito eléctrico (resistencia, corriente y voltaje, con sus respectivas unidades de medida: ohmios, amperios y voltios), y la clasificación de la electricidad según su fuente, distinguiendo entre renovable y no renovable.")
+          img(src="@/assets/curso/sintesis.svg", alt="El diagrama organiza los aspectos clave del cálculo de cargas eléctricas, partiendo de la demanda y su relación con el uso de electrodomésticos, sistemas y número de habitantes. Incluye la evaluación de necesidades por vivienda y considera factores como aire acondicionado, bomba de agua y alumbrado público. También se abordan los requisitos normativos y de eficiencia para la instalación, junto con los planos eléctricos que guían la distribución de circuitos, ubicación de tomacorrientes e interruptores. Finalmente, se incluye la representación gráfica de componentes mediante símbolos eléctricos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

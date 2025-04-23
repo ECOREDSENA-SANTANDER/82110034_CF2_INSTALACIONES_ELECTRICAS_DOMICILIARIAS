@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Fundamentos de electricidad para instalaciones en casa',
+      tema: 'Cálculo de cargas eléctricas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Identificar la apropiación de los contenidos en la temática sobre Conceptos básicos de electricidad.',
+        '<b>Objetivo:</b> identificar la apropiación de los contenidos en la temática sobre Cálculo de cargas eléctricas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'El generador o acumulador es aquel elemento capaz de mantener una diferencia de potencial entre los extremos de un conductor. ',
+            'Para calcular la demanda en unidades de vivienda se plantean cuatro alternativas.',
           imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: false,
           opciones: [
@@ -51,19 +51,19 @@ export default {
         {
           id: 2,
           texto:
-            'Una resistencia es un elemento que causa oposición al paso de la corriente, ocasionando que en sus terminales aparezca una diferencia de tensión. ',
+            'En las instalaciones de unidades de vivienda se consideran salidas para alumbrado general de 20000 amperios.',
           imagen: require('@/assets/actividad/imagen2.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -74,19 +74,19 @@ export default {
         {
           id: 3,
           texto:
-            'Los condensadores son la base de cualquier instalación eléctrica. Se deben conocer los tipos de circuitos, así como su diseño y funcionamiento para asegurar que la electricidad fluya de manera adecuada. ',
+            'La carga de cada circuito ramal de pequeños artefactos se estima en 1500 VA.',
           imagen: require('@/assets/actividad/imagen3.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -97,7 +97,7 @@ export default {
         {
           id: 4,
           texto:
-            'Un condensador es un dispositivo capaz de almacenar energía en forma de campo eléctrico. ',
+            'La carga de servicios generales incluye las instalaciones de alumbrado de parqueaderos, carga de ascensores, carga de motobombas, alumbrado de alrededores y alumbrado de accesos y escaleras.',
           imagen: require('@/assets/actividad/imagen4.jpg'),
           barajarRespuestas: false,
           opciones: [
@@ -120,7 +120,7 @@ export default {
         {
           id: 5,
           texto:
-            'La resistencia es un fenómeno físico cuyo origen se encuentra en las cargas eléctricas y cuya energía se manifiesta en fenómenos mecánicos, térmicos, luminosos, químicos, entre otros. ',
+            'Cuando se requiera e instale una carga o grupo de cargas para calefacción del ambiente al valor de la carga de diseño de los equipos o el valor expresado en la placa de características de los equipos se le debe aplicar un factor de demanda del 30 %.',
           imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: false,
           opciones: [
@@ -143,19 +143,19 @@ export default {
         {
           id: 6,
           texto:
-            'Tensión de trabajo es la máxima tensión que puede aguantar un condensador, que depende del tipo y grosor del dieléctrico con que esté fabricado. ',
+            'El punto de partida para calcular una instalación eléctrica domiciliaria es el plano cartesiano.',
           imagen: require('@/assets/actividad/imagen2.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -166,7 +166,7 @@ export default {
         {
           id: 7,
           texto:
-            'La energía nuclear procede de reacciones de fisión o fusión de átomos en las que se liberan gigantescas cantidades de energía que se usan para producir electricidad. ',
+            'En la cocina por lo general, se maneja alumbrado incandescente. ',
           imagen: require('@/assets/actividad/imagen3.jpg'),
           barajarRespuestas: false,
           opciones: [
@@ -189,19 +189,19 @@ export default {
         {
           id: 8,
           texto:
-            'La biomasa es el tipo de corriente más empleado en la industria y es también la que consumimos en nuestros hogares. ',
+            'En la casa se debe indicar el lugar de cada uno de los elementos que formarán la instalación eléctrica domiciliaria y a partir de esto se hace el proyecto o cálculo de la instalación.',
           imagen: require('@/assets/actividad/imagen4.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -212,19 +212,19 @@ export default {
         {
           id: 9,
           texto:
-            'El circuito mixto es una combinación de elementos conectados en serie y en paralelo. ',
+            'Para facilitar la interpretación de las instalaciones eléctricas, los diseños y planos deben ser ejecutados utilizando un lenguaje universal: los símbolos políticos y organizacionales.',
           imagen: require('@/assets/actividad/imagen1.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -235,19 +235,19 @@ export default {
         {
           id: 10,
           texto:
-            'Para calcular la potencia en vatios se puede utilizar la fórmula Rt=R1+R2+…Rn ',
+            'Los símbolos eléctricos, rutas de acometidas de media y baja tensión, cuadros de carga y diagrama unifilar, hacen parte de los requisitos para la instalación eléctrica.',
           imagen: require('@/assets/actividad/imagen2.jpg'),
           barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -257,7 +257,7 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente trabajo! posee una buena comprensión sobre los conceptos básicos de electricidad. ¡Siga explorando este fascinante mundo!',
+        '¡Excelente trabajo! posee una buena comprensión sobre Cálculo de cargas eléctricas. ¡Siga explorando este fascinante mundo!',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
