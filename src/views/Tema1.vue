@@ -525,32 +525,230 @@
       p.mb-4 Para consultar esta tabla y demás apartados de la norma, se recomienda adquirir el documento directamente a través de fuentes oficiales, como ICONTEC. Es importante tener en cuenta que la NTC 2050 está protegida por derechos de autor, por lo cual su distribución no autorizada puede estar restringida. Obtenerla de manera legítima garantiza el acceso a su versión actualizada y válida.
 
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-8
+          .tarjeta.fondolink3.mb-0
+            .row.align-items-center
+              .col-7.col-md-4.col-lg-3
+                img(src="@/assets/curso/temas/Tema1/4.png")
+              .col-11.col-lg-9
+                .row.align-items-center
+                  .col-lg-12
+                    h4.text-white.mb-0 ICONTEC
+                .row.align-items-center
+                  .col.mb-0.mb-sm-0  
+                    p.mb-1.amarillo Para adquirirla puede visitar la página de ICONTEC 
+                  .col-sm-auto.col-lg-4
+                    a.boton.color-acento-botones.texto-blanco(href="https://www.icontec.org/" target="_blank")
+                      span Enlace web
+                      i.fas.fa-link
 
 
+      separador
+      #t_1_2.titulo-segundo.mb-4
+        h2 1.2  Factores de demanda específicos según el tipo de carga 
+
+      p.mb-4 En el diseño de una instalación eléctrica residencial, es importante aplicar factores de demanda específicos para ciertos equipos, con el fin de estimar de manera más precisa la carga total como los que se detallan a continuación:
+
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-3
+          img(src="@/assets/curso/temas/Tema1/img13.png")
+        .col-lg-9
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+            .row.justify-content-center(titulo="Secadoras eléctricas de ropa")
+              .col-md-11.mb-4.mb-md-0
+                p Deben considerarse factores particulares para este tipo de electrodoméstico, debido a su alta demanda energética.
+            .row.justify-content-center(titulo="Equipos de cocción")
+              .col-md-11.mb-4.mb-md-0
+                p La carga se ajusta aplicando factores de demanda definidos para cocinas eléctricas o similares, incluyendo posibles aclaraciones según el número o tipo de equipos.
+            .row.justify-content-center(titulo="Aire acondicionado")
+              .col-md-11.mb-4.mb-md-0
+                p Al instalarse, se debe tomar el 100 % de la carga de diseño o la especificada en la placa del fabricante.
+            .row.justify-content-center(titulo="Calefacción ambiental")
+              .col-md-11.mb-4.mb-md-0
+                p También se debe considerar el 100 % de la carga, basada en el diseño del equipo o en la información proporcionada por el fabricante.
+            .row.justify-content-center(titulo="Cuando coexisten sistemas de aire acondicionado y calefacción")
+              .col-md-11.mb-4.mb-md-0
+                p Se debe tomar el valor más alto entre ambos como la carga representativa del sistema.
+
+      .row.justify-content-start.mb-5(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-12
+          .d-flex.align-items-center.mt-5
+            img.w-card-icon(src="@/assets/curso/temas/Tema1/eclipse.png")
+            h3.bg7.py-2.w-card-text2.text-white Pasos para determinar el número de circuitos ramales requeridos
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.p-4.bgc-3
+          .row
+            .col-lg-12.p-4
+              .tarjeta.tarjeta--blanca.p-5
+                PasosB.color-acento-contenido
+                  .row.justify-content-center.align-items-center(titulo="Paso 1")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+           
+                      h4.mb-5 Calcular el área total del local o vivienda
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Se debe medir el área en metros cuadrados (m²) de la vivienda o del espacio a electrificar. Esta medida será la base para estimar cuánta energía se requerirá en el lugar.
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p Ejemplo: una vivienda de 80 m².
+
+                  .row.justify-content-center.align-items-center(titulo="Paso 2")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                  
+                      h4.mb-5 Definir el tipo de ocupación
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Se identifica el uso del espacio: por ejemplo, si es una vivienda, oficina, local comercial, etc. Esto es importante porque cada tipo de ocupación tiene una demanda energética distinta.
+           
+                  
+                  .row.justify-content-center.align-items-center(titulo="Paso 3")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                      h4.mb-5 Multiplicar el área por un valor estándar de carga (por ejemplo, 32 W/m²)
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Este valor representa la potencia eléctrica estimada por cada metro cuadrado. Para viviendas, se suele usar un valor de referencia como 32 W/m².
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p Ejemplo: 80 m² × 32 W/m² = 2.560 W de carga estimada para iluminación y usos generales.
+                  
+                  .row.justify-content-center.align-items-center(titulo="Paso 4")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                      h4.mb-5 Dividir la potencia total (en W) por el voltaje de operación (110 o 220 V)
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Esto permite calcular la corriente eléctrica (I) que se necesita, usando la fórmula:
+                        li.d-flex  
+                          i.fas 
+                          p.mb-0 I = P / V
+                        li.d-flex
+                          i.fas 
+                          p donde P es la potencia en vatios (W) y V es el voltaje en voltios (V).
+
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Ejemplo: Si la potencia es 2.560 W y el voltaje es 120 V, entonces:
+                        li.d-flex  
+                          i.fas 
+                          p.mb-0 I = 2.560 / 120 
+                        li.d-flex
+                          i.fas 
+                          p I = 21.33 A
+                  
+                  .row.justify-content-center.align-items-center(titulo="Paso 5")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                      h4.mb-5 Seleccionar el valor del dispositivo de protección (interruptor termomagnético)
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Se elige un interruptor que proteja el circuito ramal. Los más comunes en viviendas son de #[b 15 A] o #[b 20 A], dependiendo del calibre del conductor y del uso previsto del circuito.
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p En el ejemplo anterior, podría seleccionarse un interruptor de #[b 20 A.]
+
+                  
+                  .row.justify-content-center.align-items-center(titulo="Paso 6")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                      h4.mb-5 Dividir la corriente total calculada entre el valor del interruptor seleccionado
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 Esto da el número de circuitos necesarios para distribuir la carga sin sobrecargar ninguno.
+
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p Ejemplo: 21.33 / 20 = 1.066
+                  
+                  .row.justify-content-center.align-items-center(titulo="Paso 7")
+                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                      h4.mb-5 Aproximar al siguiente número entero mayor
+                      ul.lista-ul--color
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p.mb-0 El resultado anterior se redondea hacia arriba para asegurar la protección y distribución adecuada.
+
+                        li.d-flex
+                          i.fas.fa-circle-check
+                          p En el ejemplo: 1.066 se redondea a 2 circuitos ramales como mínimo.
 
 
+      p.mb-4 Este procedimiento garantiza que la instalación eléctrica esté dimensionada correctamente, que no se sobrecarguen los circuitos y que se cumpla con las condiciones de seguridad y eficiencia.
+
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-5
+          .d-flex.align-items-center.mt-3
+            h3.bg33.py-2.w-card-text Ejemplo práctico
+
+      p.mb-5 A continuación, un ejemplo para determinar circuitos ramales requeridos para un alumbrado general:
 
 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-7
+          p Una vivienda de 200 m² requiere una carga mínima para alumbrado general de 200 m x 32.
+          p.text-center La carga que requiere la casa sería: 
+        
+        .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
+          .col-lg-5
+            .tarjeta.bg55.p-3.mb-3
+              .row.justify-content-center
+                .col-lg-7.col-md-6.col-6.fw-bold
+                  div.formula-container
+                    span.v2 200 m X 32
+                    .fraction
+                      .numerator
+                        span.r VA
+                      .denominator 
+                        span.r M
+                    span.equals  = 
+                    span.v2 6400 VA
+            
+            p Para hallar la corriente:
+               
+        .col-lg-4
+          .tarjeta.bg55.p-3.mb-4
+            .row.justify-content-center.align-items-center
+              .col-lg-6.col-md-6.col-6.fw-bold
+                div.formula-container
+                  .fraction
+                    .numerator
+                      span.r 6400 VA
+                    .denominator 
+                      span.r 115 V
+                  span.equals  = 
+                  span.v2 56 A
+            
+          p.text-center Para hallar el número de circuitos ramales:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
+          .col-lg-4
+            .tarjeta.bg55.p-3.mb-3
+              .row.justify-content-center
+                .col-lg-6.col-md-6.col-6.fw-bold
+                  div.formula-container
+                    .fraction
+                      .numerator
+                        span.r 54 A
+                      .denominator 
+                        span.r 15 A
+                    span.equals  = 
+                    span.v2 7,73
+            
+        p.text-center De acuerdo con la corriente calculada la vivienda deberá contar con:      
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-5
+          ul.lista-ul--color
+            li.d-flex.mb-0
+              i.fas.fa-circle-check
+              p 4 circuitos ramales de 15 A cada uno o.
+            li.d-flex.mb-0
+              i.fas.fa-circle-check
+              p 3 circuitos ramales de 20 A cada uno para alumbrado.
 
 
 
