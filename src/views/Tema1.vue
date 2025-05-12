@@ -529,15 +529,15 @@
         .col-lg-8
           .tarjeta.fondolink3.mb-0
             .row.align-items-center
-              .col-7.col-md-4.col-lg-3
+              .col-5.col-md-4.col-lg-3.d-none.d-lg-block
                 img(src="@/assets/curso/temas/Tema1/4.png")
-              .col-11.col-lg-9
+              .col-12.col-lg-9.p-4
                 .row.align-items-center
-                  .col-lg-12
-                    h4.text-white.mb-0 ICONTEC
+                  .col-lg-12.col-12
+                    h4.text-white.mb-1 ICONTEC
                 .row.align-items-center
                   .col.mb-0.mb-sm-0  
-                    p.mb-1.amarillo Para adquirirla puede visitar la página de ICONTEC 
+                    p.mb-3.amarillo Para adquirirla puede visitar la página de ICONTEC 
                   .col-sm-auto.col-lg-4
                     a.boton.color-acento-botones.texto-blanco(href="https://www.icontec.org/" target="_blank")
                       span Enlace web
@@ -551,8 +551,8 @@
       p.mb-4 En el diseño de una instalación eléctrica residencial, es importante aplicar factores de demanda específicos para ciertos equipos, con el fin de estimar de manera más precisa la carga total como los que se detallan a continuación:
 
       .row.justify-content-center.align-items-center.mb-0
-        .col-lg-3
-          img(src="@/assets/curso/temas/Tema1/img13.png")
+        .col-lg-3.col-8.col-md-6
+          img.mb-3(src="@/assets/curso/temas/Tema1/img13.png")
         .col-lg-9
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.justify-content-center(titulo="Secadoras eléctricas de ropa")
@@ -584,7 +584,7 @@
               .tarjeta.tarjeta--blanca.p-5
                 PasosB.color-acento-contenido
                   .row.justify-content-center.align-items-center(titulo="Paso 1")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
            
                       h4.mb-5 Calcular el área total del local o vivienda
                       ul.lista-ul--color
@@ -596,7 +596,7 @@
                           p Ejemplo: una vivienda de 80 m².
 
                   .row.justify-content-center.align-items-center(titulo="Paso 2")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                   
                       h4.mb-5 Definir el tipo de ocupación
                       ul.lista-ul--color
@@ -606,7 +606,7 @@
            
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 3")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                       h4.mb-5 Multiplicar el área por un valor estándar de carga (por ejemplo, 32 W/m²)
                       ul.lista-ul--color
                         li.d-flex
@@ -617,7 +617,7 @@
                           p Ejemplo: 80 m² × 32 W/m² = 2.560 W de carga estimada para iluminación y usos generales.
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 4")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                       h4.mb-5 Dividir la potencia total (en W) por el voltaje de operación (110 o 220 V)
                       ul.lista-ul--color
                         li.d-flex
@@ -641,7 +641,7 @@
                           p I = 21.33 A
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 5")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                       h4.mb-5 Seleccionar el valor del dispositivo de protección (interruptor termomagnético)
                       ul.lista-ul--color
                         li.d-flex
@@ -653,7 +653,7 @@
 
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 6")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                       h4.mb-5 Dividir la corriente total calculada entre el valor del interruptor seleccionado
                       ul.lista-ul--color
                         li.d-flex
@@ -665,7 +665,7 @@
                           p Ejemplo: 21.33 / 20 = 1.066
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 7")
-                    .col-md-12.mb-4.mb-md-0.col-lg-12.px-5
+                    .col-md-12.mb-4.mb-md-0.col-lg-12
                       h4.mb-5 Aproximar al siguiente número entero mayor
                       ul.lista-ul--color
                         li.d-flex
@@ -728,7 +728,7 @@
           .col-lg-4
             .tarjeta.bg55.p-3.mb-3
               .row.justify-content-center
-                .col-lg-6.col-md-6.col-6.fw-bold
+                .col-lg-5.col-md-6.col-6.fw-bold
                   div.formula-container
                     .fraction
                       .numerator
