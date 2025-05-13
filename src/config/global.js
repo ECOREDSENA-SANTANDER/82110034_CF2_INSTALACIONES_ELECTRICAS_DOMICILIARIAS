@@ -92,7 +92,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/ejemplo.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -108,210 +108,134 @@ export default {
   },
   complementario: [
     {
-      tema: 'Circuitos eléctricos',
+      tema: 'Cálculo de la demanda',
       referencia:
-        'García, B. (s.f.). Tema 2: Análisis de circuitos en corriente continua. Fundamentos de Ingeniería Eléctrica. Universidad Carlos III de Madrid.  ',
+        'Pulecio Herrera, A. A. (2007). Estudio de prefactibilidad para el diseño de una casa energética y ambientalmente eficiente en la población de Apulo, Cundinamarca. ',
       tipo: 'PDF',
       link:
-        'https://ocw.uc3m.es/pluginfile.php/5638/mod_page/content/22/FIE_diapositivas_Tema2.pdf',
+        'https://ciencia.lasalle.edu.co/server/api/core/bitstreams/c63f05e3-3b78-49c0-9c4b-d513337ccb1e/content ',
     },
     {
-      tema: 'Condensadores e inductores',
+      tema: 'Requisitos para una instalación eléctrica',
       referencia:
-        'RTR Energy. (s.f.). Condensadores Eléctricos. [Catálogo PDF]. Direct Industry Connect.',
+        'Ministerio de Minas y Energía. (2006). Reglamento Técnico de Instalación Eléctricas RETIE. Unidad de planeación Minero-Energética.  ',
       tipo: 'PDF',
       link:
-        'https://pdf.directindustry.es/pdf/rtr-energia/condensadores-electricos/19823-600958.html',
-    },
-    {
-      tema: 'Transformacionales de energía',
-      referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Oferta y demanda de energía: tendencias y perspectivas.',
-      tipo: 'PDF',
-      link: 'https://www.fao.org/4/i0139s/i0139s03.pdf',
+        'https://www1.upme.gov.co/Hemeroteca/Impresos/Cartilla_RETIE_2006.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Cálculo de carga eléctrica',
+      termino: 'Carga eléctrica',
       significado:
-        'Operación que se realiza para identificar la carga total necesaria que deberá soportar una instalación eléctrica determinada, como alumbrados y diversas aplicaciones como contactos, bombas de agua, aire acondicionado, secadoras, lavadoras, entre otras. ',
+        'Es la cantidad de energía que necesita un sistema eléctrico para alimentar todos los aparatos y dispositivos conectados.',
     },
     {
-      termino: 'Circuito en serie',
+      termino: 'VA (Volt-Amperio)',
       significado:
-        'Conexión en la que los bornes o terminales de los dispositivos (generadores, resistencia, condensadores, interruptores, entre otros) se conectan secuencialmente. ',
+        'Unidad que mide la potencia aparente en sistemas de corriente alterna, resultado de multiplicar voltios por amperios.',
     },
     {
-      termino: 'Circuito mixto',
+      termino: 'Demanda eléctrica',
       significado:
-        'Tipo de circuito donde se combinan elementos conectados en serie y en paralelo. ',
+        'Estimación de la carga máxima que un sistema puede requerir en determinado momento.',
     },
     {
-      termino: 'Circuito paralelo',
+      termino: 'Plano arquitectónico',
       significado:
-        'Conexión donde los bornes o terminales de todos los dispositivos (generadores, resistencias, condensadores, etc.) conectados coincidan entre sí, lo mismo que sus terminales de salida.',
+        'Representación gráfica de una vivienda que sirve como base para diseñar la instalación eléctrica.',
     },
     {
-      termino: 'Condensadores',
+      termino: 'NTC 2050',
       significado:
-        'Dispositivos o componentes pasivos que almacenan energía eléctrica. ',
+        'Norma técnica colombiana que regula el diseño e implementación de instalaciones eléctricas, basada en el NEC.',
     },
     {
-      termino: 'Corriente alterna',
+      termino: 'Electrificación básica',
       significado:
-        'Tipo de corriente en la que la magnitud y dirección varían cíclicamente.',
+        'Instalación mínima necesaria para operar electrodomésticos comunes sin requerir obras adicionales.',
     },
     {
-      termino: 'Corriente continua',
+      termino: 'Electrificación elevada',
       significado:
-        'Tipo de corriente donde el flujo de electrones es continuo y se realiza a través de un conductor entre dos puntos de distinto potencial. ',
+        'Instalación prevista para viviendas mayores a 160 m² con alta demanda de energía y equipos especiales.',
     },
     {
-      termino: 'Electricidad',
+      termino: 'Circuito ramal',
       significado:
-        'Estudia las leyes que rigen el comportamiento de las cargas eléctricas que suceden en los fenómenos atmosféricos, procesos biológicos y el funcionamiento de mecanismos, electrodomésticos y dispositivos electrónicos. ',
+        'Conjunto de conductores que alimentan una o varias cargas desde un solo interruptor automático.',
     },
     {
-      termino: 'Inductores',
+      termino: 'Factor de demanda',
       significado:
-        'También conocidos como bobinas, son componentes pasivos de un circuito eléctrico que, debido al fenómeno de la autoinducción, almacena energía en forma de campo magnético. ',
+        'Porcentaje aplicado a una carga estimada para reflejar su uso real y evitar sobredimensionamiento.',
     },
     {
-      termino: 'Instalación eléctrica',
+      termino: 'Cuadro de cargas',
       significado:
-        'Conjunto de aparatos, equipos, cables conductores, tuberías y accesorios destinados al suministro, distribución y utilización de la energía eléctrica en una edificación. ',
+        'Tabla que organiza y resume las distintas cargas eléctricas de una vivienda para su cálculo total.',
     },
     {
-      termino: 'Ley de Corriente',
+      termino: 'Interruptor termomagnético',
       significado:
-        'Ley también conocida como Primera Ley de Kirchhoff o LCK, indica que, en cualquier nodo, la suma de la corriente que entra en ese nodo es igual a la suma de la corriente que sale. De igual forma, la suma de todas las corrientes que pasan por el nodo es igual a cero. ',
+        'Dispositivo de protección que interrumpe el paso de corriente cuando se detecta sobrecarga o cortocircuito.',
     },
     {
-      termino: 'Ley de Joule',
+      termino: 'GFCI (Interruptor de falla a tierra)',
       significado:
-        'Determina la cantidad de calor que es capaz de entregar una resistencia, esta cantidad de calor dependerá de la intensidad de corriente que por ella circule de la cantidad de tiempo que esté conectada. ',
+        'Interruptor que protege a las personas contra descargas eléctricas por contacto accidental con la corriente.',
     },
     {
-      termino: 'Ley de Ohm',
+      termino: 'Plano eléctrico',
       significado:
-        'Define que la corriente que circula por un conductor eléctrico es directamente proporcional al voltaje e inversamente proporcional a la resistencia, es decir, cuando aumenta el voltaje aumenta la corriente y cuando la resistencia aumenta la corriente es mínima. ',
+        'Dibujo técnico que muestra la ubicación, conexiones y componentes eléctricos de una edificación.',
     },
     {
-      termino: 'Ley de Voltajes',
+      termino: 'Símbolos eléctricos',
       significado:
-        'Ley que indica que en toda malla la suma de todas las caídas de tensión es igual a la suma de todas las subidas de tensión. De forma equivalente, en toda malla la suma de las diferencias de potencial eléctrico debe ser cero (0). ',
-    },
-    {
-      termino: 'Ley de Watt',
-      significado:
-        'Determina la cantidad de energía eléctrica o trabajo que se transporta o que se consume en una determinada unidad de tiempo. Si la tensión se mantiene constante, la potencia es directamente proporcional a la corriente. ',
-    },
-    {
-      termino: 'Leyes de Kirchhoff',
-      significado:
-        'Son dos igualdades que se basan en la conservación de la energía y la carga en los circuitos eléctricos. Estas leyes son muy utilizadas en ingeniería eléctrica para hallar corrientes y tensiones en cualquier punto de un circuito eléctrico. Estas leyes son: Primera Ley de Kirchhoff o Ley de Corrientes y Segunda Ley de Kirchhoff o Ley de Voltajes.',
-    },
-    {
-      termino: 'Sistema eléctrico',
-      significado:
-        'Conjunto de equipos necesarios para dar el servicio eléctrico, es decir, para hacer que los consumidores dispongan de la electricidad que demandan. Está compuesto en términos generales por: generación de energía, transmisión, subestaciones, distribución y consumo.',
+        'Representaciones gráficas normalizadas que permiten identificar fácilmente componentes eléctricos en los planos.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Alexander, C. K. & Sadiku, M.N.O (2013). Fundamentos de circuitos eléctricos. (5 ed.)',
+        'Shalux Lighting. (s.f.). 2024. Cómo iluminar tu hogar utilizando los focos LED.',
       link:
-        'https://books.google.es/books?hl=es&lr=lang_es&id=g1pEDAAAQBAJ&oi=fnd&pg=PR11&dq=circuitos+el%C3%A9ctricos+en+serie&ots=bto4zFSjBq&sig=gid8gBTu5v6P8c7Ay9LkN6wSy88#v=onepage&q=circuitos%20el%C3%A9ctricos%20en%20serie&f=false',
+        ' https://shaluxlighting.com/como-iluminar-tu-hogar-utilizando-los-focos-led.php',
     },
     {
       referencia:
-        'Blogspot. Circuito eléctrico. (11 de mayo de 2014). Recuperado de ',
-      link: 'https://fisica17-23.blogspot.com/2014/05/circuito-electrico.html',
-    },
-    {
-      referencia:
-        'Escuelapedia. (2014). Descubrimiento de la primera partícula subatómica: el electrón. Recuperado de ',
+        'Instituto Colombiano de Normas Técnicas y Certificación ICONTEC. (2019). PB 009 código eléctrico colombiano (NTC 2050). ',
       link:
-        'https://escuelapedia.com/descubrimiento-de-la-primera-particula-subatomica-el-electron/',
+        'https://asieb.com/wp-content/uploads/2024/10/NTC_2050_codigo_electrico_nacional.pdf',
     },
     {
       referencia:
-        'García González, A. (22 de marzo de 2023). Conceptos básicos de electricidad: La ley de Ohm - Panama Hitek. Recuperado de ',
+        'Nelguarher. (2013). Requisitos para instalación eléctrica. Club Ensayos. ',
       link:
-        'https://panamahitek.com/conceptos-basicos-de-electricidad-la-ley-de-ohm/',
+        'https://www.clubensayos.com/Tecnolog%C3%ADa/REQUISITOS-PARA-INSTALACION-ELECTRICA/1077231.html',
     },
     {
       referencia:
-        'García Fraile, A. (28 de febrero de 2011). Energías renovables y no renovables. [Web blog spot]. Recuperado de ',
+        'Normas y especificaciones para estudios, proyectos, construcción e instalaciones. (2014). Normas y especificaciones para estudios, proyectos, construcción e instalaciones. In volumen 5 instalaciones de servicio. ',
       link:
-        'https://201011sma.blogspot.com/2011/02/energias-la-energia-es-una-magnitud.html',
+        'https://www.gob.mx/cms/uploads/attachment/file/105540/Tomo_I__Instalaciones_Electricas_V_2.1.pdf',
     },
     {
       referencia:
-        'Henao Robledo, F. (2013). Riesgos eléctricos y mecánicos. (2 ed.). Recuperado de ',
+        'Organismo Supervisor de la Inversión en Energía. (n.d.). Guía para calcular el consumo eléctrico doméstico. ',
+      link: 'https://coopsms.com.ar/download/GuiaCalcularConsumo1.pdf',
+    },
+    {
+      referencia:
+        'Quintero Santa, J.E. (10 de febrero de 2018). Requisitos para una instalación eléctrica. SlideShare. (2025). ',
       link:
-        'https://books.google.es/books?hl=es&lr=lang_es&id=Ntk3DgAAQBAJ&oi=fnd&pg=PP1&dq=electricidad+est%C3%A1tica&ots=hIj78NsKs7&sig=uVMViu85ra-Mfk_eK5W2dNo-m2w#v=onepage&q=electricidad%20est%C3%A1tica&f=false',
+        'https://es.slideshare.net/slideshow/u2-requisitos-de-instalacion-instalaciones-electricas-domiciliarias/87752328',
     },
     {
       referencia:
-        'Hermosa Donate, A. (2003). Principios de electricidad y electrónica. (T III). Recuperado de ',
-      link:
-        'https://books.google.co.ve/books?id=pvtFKgwM11wC&printsec=frontcover#v=onepage&q&f=false',
-    },
-    {
-      referencia: 'Martínez, R. (2012). Receptores eléctricos. Recuperado de ',
-      link: 'https://es.slideshare.net/slideshow/receptores-elctricos/13315987',
-    },
-    {
-      referencia:
-        'Mheducation. (mar.). Medidas eléctricas en las instalaciones de baja tensión. Recuperado de ',
-      link: 'https://www.mheducation.es/bcv/guide/capitulo/8448141725.pdf',
-    },
-    {
-      referencia:
-        'Polanco Cáceres, H.G. (2010). Manual de procesos y procedimientos. [Monografía]. Universidad Santiago de Cali. Recuperado de ',
-      link: 'https://giovannipolanco.blogspot.com/',
-    },
-    {
-      referencia:
-        'Picco, D. L. (9 de mayo de 2014). El largo camino de la electricidad. [Web blog spot]. Recuperado de ',
-      link:
-        'https://usuariosdeenergiaelectrica.blogspot.com/2014/05/red-de-distribucion.html',
-    },
-    {
-      referencia:
-        'Polverini, F.F. (14 de abril de 2022). Fundamentos básicos de Electrónica. FP Control Automating the worl. Recuperado de ',
-      link: 'https://fpcontrol.com.ar/fundamentos-basicos-de-electronica/',
-    },
-
-    {
-      referencia:
-        'Rasek. (11 de febrero de 2011). Corriente eléctrica. Recuperado de ',
-      link: 'https://rasek.blogia.com/2011/021101-corriente-electrica.php ',
-    },
-    {
-      referencia:
-        'Rueda, L. (26 de abril de 2021). Electrónica: 3. tutorial de electrónica básica autor Rueda Luis. SlideShare. ',
-      link:
-        'https://es.slideshare.net/slideshow/electrnica-3-tutorial-de-electrnica-bsica-autor-rueda-luis/247005553',
-    },
-    {
-      referencia:
-        'Tacca, H. (2020). Conceptos Básicos de Electrotenia. Buenos Aires: SISBI- UBA. Recuperado de: ',
-      link: 'https://www.aacademica.org/hernan.emilio.tacca/10/1.pdf',
-    },
-    {
-      referencia:
-        'Tuveras. (s.f.). Sistema Eléctrico de Potencia. Recuperado de ',
-      link: 'https://tuveras.com/lineas/sistemaelectrico.htm',
-    },
-    {
-      referencia:
-        'Zambrano, A. B. (2019). ELEMENTOS DE UN CIRCUITO Unidad 1. Conceptos básicos de electricidad. Senasofiaplus.',
-      link:
-        'https://www.academia.edu/38584781/ELEMENTOS_DE_UN_CIRCUITO_Unidad_1_Conceptos_b%C3%A1sicos_de_electricidad',
+        'Santana, F. (2015). U2 cálculo de la carga. Academia. (2025).',
+      link: 'https://www.academia.edu/17683907/U2_calculo_de_la_carga',
     },
   ],
   creditos: [
@@ -346,11 +270,6 @@ export default {
             'Regional Boyacá - Centro de Desarrollo Agropecuario y Agroindustrial',
         },
         {
-          nombre: 'Andrea Ardila Chaparro',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
-        },
-        {
           nombre: 'Sandra Paola Morales Páez',
           cargo: 'Evaluadora instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
@@ -366,12 +285,12 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Andrea Paola Botello de Rosa',
+          nombre: 'Leonardo Castellanos Rodríguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: ' S I N   A S I G N A C I O N',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -381,12 +300,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: ' S I N   A S I G N A C I O N',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'S I N   A S I G N A C I O N ',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
