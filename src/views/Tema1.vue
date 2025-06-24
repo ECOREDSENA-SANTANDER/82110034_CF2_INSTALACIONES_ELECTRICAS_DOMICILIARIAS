@@ -26,7 +26,7 @@
                 img(src='@/assets/curso/temas/Tema1/1.png', alt='Texto que describa la imagen')          
             .col-12.col-lg-7
               br
-              h2.bg4.text-center La electrificación básica
+              h2.bg4.text-center Electrificación básica
           p Según Torres (2015), se refiere a la infraestructura eléctrica necesaria para el uso de aparatos eléctricos comunes, como la instalación de circuitos, tomacorrientes, interruptores, luminarias, tablero de distribución y cableado. Es decir, hace referencia al sistema eléctrico instalado en una edificación para que los dispositivos funcionen correctamente.
         
         .col-md.tarjeta.bg5.p-5
@@ -103,9 +103,9 @@
                     
                 .row.justify-content-between.align-items-center.mb-3
                   .col.mb-3.mb-sm-0  
-                    p.mb-1.text-white Reglamento técnico de instalaciones eléctricas RETIE.
+                    p.mb-1.text-white Reglamento Técnico de Instalaciones Eléctricas, RETIE.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES ELECTRICAS DOMICILIARIAS/1. FinalxVirtualizar/Contenidos/CF02/Formatos DI/Enlaces para DI/Reglamento tecnico RETIE.pdf?csf=1&web=1&e=isVmiV" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/Reglamento%20tecnico%20RETIE.pdf?csf=1&web=1&e=x1RS0I" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -113,7 +113,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Desarrollo de programa para cálculos de cargas térmicas en edificaciones.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES ELECTRICAS DOMICILIARIAS/1. FinalxVirtualizar/Contenidos/CF02/Formatos DI/Enlaces para DI/DESARROLLO PROGRAMA PARA CALCULO DE CARGAS TERMICAS EN EDIFICACIONES.pdf?csf=1&web=1&e=P3f0l2" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/DESARROLLO%20PROGRAMA%20PARA%20CALCULO%20DE%20CARGAS%20TERMICAS%20EN%20EDIFICACIONES.pdf?csf=1&web=1&e=dLbgOY" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -121,7 +121,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Marco regulatorio sector energético en Colombia.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES ELECTRICAS DOMICILIARIAS/1. FinalxVirtualizar/Contenidos/CF02/Formatos DI/Enlaces para DI/marco_regulatorio_sector_energia.pdf?csf=1&web=1&e=j8LIYm" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/marco_regulatorio_sector_energia.pdf?csf=1&web=1&e=kqMJkb" target="_blank")
                       span Descargar
                       i.fas.fa-download
       
@@ -144,20 +144,23 @@
               ul.lista-ul--color.sec2.px-4.px-lg-5.py-3.mb-0
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p #[b Alternativa No. 1.] Basada en la Sección 220, Parte B. Incluye los artículos 220-3(b) y (c), 220-11, 220-15, 220-16, 220-17, 220-18 y 220-19.
+                  p #[b Alternativa No. 1.]  Basada en la sección 220, Parte b. Incluye los artículos 220-3(b) y (c), 220-11, 220-15, 220-16, 220-17, 220-18 y 220-19.
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p #[b Alternativa No. 2.] Basada en la Sección 220, Parte C, artículo 220-30.
+                  p #[b Alternativa No. 2.] Basada en la sección 220, Parte c, artículo 220-30.
+
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p #[b Alternativa No. 3.] Dirigida a viviendas multifamiliares, basada en la Sección 220, Parte C, artículo 220-32.
+                  p #[b Alternativa No. 3.] Dirigida a viviendas multifamiliares, basada en la sección 220, parte c, artículo 220-32.
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p #[b Alternativa No. 4.] También basada en la Sección 220, Parte C, artículo 220-37.
+                  p #[b Alternativa No. 4.] También basada en la sección 220, parte c, artículo 220-37.
               
-      .row.justify-content-center.align-items-center.bg6.p-4
-        .col-lg-12
-          h5 A continuación, se detalla la aplicación de la Alternativa No. 1, por ser la de mayor difusión y uso en el contexto nacional. Si bien las alternativas 2 y 3 son técnicamente válidas, no se ajustan completamente a las características de la vivienda típica colombiana. Por su parte, la alternativa 4 está ampliamente abordada en textos técnicos y normativas sobre sistemas de distribución eléctrica.
+      .row.justify-content-center.align-items-center.p-4
+        .col-lg-2.d-none.d-lg-block 
+          img(src="@/assets/curso/temas/Tema1/IMG14.png")
+        .col-lg-10.bg6.p-4
+          p A continuación, se detalla la aplicación de la alternativa No. 1, por ser la de mayor difusión y uso en el contexto nacional. Si bien las alternativas No. 2 y No. 3 son técnicamente válidas, no se ajustan completamente a las características de la vivienda típica colombiana. Por su parte, la alternativa No. 4 está ampliamente abordada en textos técnicos y normativas sobre sistemas de distribución eléctrica.
   
   
       .row.justify-content-start.mb-5(data-aos="zoom-in-left")
@@ -233,7 +236,7 @@
                           p #[b Calentadores de agua:] requieren un circuito dedicado de #[b 20 A] por unidad, con una carga mínima de 1500 VA o según la potencia del fabricante.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
-                          p #[b Secadoras:] se recomienda un circuito multi conductor de 2 x #[b 30 A], con una carga estimada de 5000 VA o conforme a la placa del equipo
+                          p #[b Secadoras:] se recomienda un circuito multi conductor de #[b 2 x 30 A], con una carga estimada de 5000 VA o conforme a la placa del equipo
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
                           p #[b Cocción eléctrica:]  para estufas, hornos o cocinas empotradas con más de #[b 1,75 KW,] se debe considerar la potencia real indicada en la placa del fabricante.
@@ -254,7 +257,7 @@
                           p Ascensores o sistemas de elevación.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
-                          p Motobombas
+                          p Motobombas.
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
                           p Iluminación perimetral y de accesos.
@@ -323,11 +326,11 @@
       .row.justify-content-center.align-items-center.bg6.p-4.mb-5
         .col-lg-12
           h5 Nota: si desea profundizar en esta información, puede adquirir en la página de ICONTEC. Las diferentes normas y leyes citadas dentro del componente; aunque debe tener presente que tienen un costo dentro de esa página.     
-          h5 Sin embargo, al interior de este componente se proporciona contenido clave que le permitirá comprender el proceso de diseño de instalaciones eléctricas
+          h5 Sin embargo, al interior de este componente se proporciona contenido clave que le permitirá comprender el proceso de diseño de instalaciones eléctricas.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
-          p Para complementar la temática expuesta se expone la siguiente tabla resumen del diseño eléctrico de una vivienda conforme a la NTC 2050, que es la norma colombiana basada en el NEC #[em (National Electrical Code).] Estos aspectos se consideran los más importantes que se deben tener en cuenta en el diseño eléctrico residencial.
+          p Para complementar la temática expuesta, diríjase a la siguiente tabla resumen del diseño eléctrico de una vivienda conforme a la NTC 2050, que es la norma colombiana basada en el NEC (National Electrical Code). Estos aspectos se consideran los más importantes que se deben tener en cuenta en el diseño eléctrico residencial.
   
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -422,33 +425,33 @@
               SlyderA(tipo="b").fondoblanco.p-4
                 .row
                   .col-md-11
-                    h4 NTC 2050: 
+                    h4 NTC 2050 
                     p Norma Técnica Colombiana que regula instalaciones eléctricas (basada en el NEC de EE. UU.).
                 .row
                   .col-md-11
-                    h4 NEC: 
+                    h4 NEC
                     p #[em National Electrical Code], base técnica para la NTC 2050.
 
                 .row
                   .col-md-11
-                    h4 HVAC:
+                    h4 HVAC
                     p #[em Heating, Ventilation and Air Conditioning] (sistemas de calefacción, ventilación y aire acondicionado).
                 .row
                   .col-md-11
-                    h4 GFCI:
+                    h4 GFCI
                     p #[em Ground Fault Circuit Interrupter] - Interruptor que protege contra fallas a tierra (evita descargas eléctricas).
                 .row
                   .col-md-11
-                    h4 A:
+                    h4 A
                     p Amperios – unidad de medida de corriente eléctrica.
                 .row
                   .col-md-11
-                    h4 PVC:
+                    h4 PVC
                     p Policloruro de vinilo – tipo de tubería plástica aislante.
                 .row
                   .col-md-11
-                    h4 EMT:
-                    p #[em Electrical metallic tubing] - tubería metálica para canalización eléctrica.
+                    h4 EMT
+                    p #[em Electrical Metallic Tubing] - tubería metálica para canalización eléctrica.
       
       p.mb-3 A continuación, se presenta un ejemplo de cuadro de carga para una propiedad de uso residencial de 80 metros cuadrados:
       
@@ -496,7 +499,7 @@
         .col-lg-4
           img.mb-3.abajo.d-none.d-lg-block(src='@/assets/curso/temas/Tema1/img12.png', alt='')  
 
-      p.mb-5 Para calcular correctamente la carga eléctrica de una vivienda, se deben aplicar los factores de demanda establecidos en la Tabla 220-11 de la NTC 2050, de acuerdo con el siguiente esquema:
+      p.mb-5 Para calcular correctamente la carga eléctrica de una vivienda, se deben aplicar los factores de demanda establecidos en la tabla 220-11 de la NTC 2050:
 
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -628,11 +631,11 @@
                           p.mb-0 I = P / V
                         li.d-flex
                           i.fas 
-                          p donde P es la potencia en vatios (W) y V es el voltaje en voltios (V).
+                          p Donde P es la potencia en vatios (W) y V es el voltaje en voltios (V).
 
                         li.d-flex
                           i.fas.fa-circle-check
-                          p.mb-0 Ejemplo: Si la potencia es 2.560 W y el voltaje es 120 V, entonces:
+                          p.mb-0 Ejemplo: si la potencia es 2.560 W y el voltaje es 120 V, entonces:
                         li.d-flex  
                           i.fas 
                           p.mb-0 I = 2.560 / 120 
