@@ -524,8 +524,13 @@
             th.text-regular Exceso de 120.000 VA
             th.text-regular 25 %
       
-      p La Norma Técnica Colombiana NTC 2050 establece los lineamientos técnicos para el diseño e implementación de instalaciones eléctricas en Colombia. Entre sus contenidos, la Tabla 220-11 especifica los factores de demanda que deben aplicarse a las cargas de alumbrado general en edificaciones.
-      p.mb-4 Para consultar esta tabla y demás apartados de la norma, se recomienda adquirir el documento directamente a través de fuentes oficiales, como ICONTEC. Es importante tener en cuenta que la NTC 2050 está protegida por derechos de autor, por lo cual su distribución no autorizada puede estar restringida. Obtenerla de manera legítima garantiza el acceso a su versión actualizada y válida.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-2.d-none.d-lg-block
+          img(src="@/assets/curso/temas/Tema1/img15.png")
+        .col-lg-10.bg55
+          br
+          p La Norma Técnica Colombiana NTC 2050 establece los lineamientos técnicos para el diseño e implementación de instalaciones eléctricas en Colombia. Entre sus contenidos, la Tabla 220-11 especifica los factores de demanda que deben aplicarse a las cargas de alumbrado general en edificaciones.
+          p.mb-4 Para consultar esta tabla y demás apartados de la norma, se recomienda adquirir el documento directamente a través de fuentes oficiales, como ICONTEC. Es importante tener en cuenta que la NTC 2050 está protegida por derechos de autor, por lo cual su distribución no autorizada puede estar restringida. Obtenerla de manera legítima garantiza el acceso a su versión actualizada y válida.
 
 
       .row.justify-content-center.align-items-center.mb-5
