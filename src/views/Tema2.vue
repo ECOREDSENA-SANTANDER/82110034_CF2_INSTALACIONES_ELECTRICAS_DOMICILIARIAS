@@ -65,7 +65,7 @@
         br
         br
 
-    p.mb-4 El primer paso para diseñar y calcular una instalación eléctrica en una vivienda es contar con el plano arquitectónico de planta. Este plano debe estar a escala y mostrar con claridad todas las áreas de la casa: número y ubicación de habitaciones, sala, comedor, pasillos, cocina, baños, patio, jardines, entre otros espacios. Estos elementos varían según el tipo de vivienda sea unifamiliar o multifamiliar, ya que cada una presenta diferentes necesidades eléctricas.
+    p.mb-4 Es fundamental identificar las necesidades específicas de cada área de la vivienda, considerando los requerimientos eléctricos que deben ser cubiertos. Estas necesidades pueden depender del diseño arquitectónico, del estilo de vida de los ocupantes, o incluso de las especificaciones definidas por la constructora, especialmente en el caso de proyectos multifamiliares.
 
     .row.justify-content-center.align-items-center.mb-3
         .col-lg-3.col-8.col-md-5
@@ -132,7 +132,7 @@
           p En los pasillos es necesario instalar iluminación y, en algunos casos, tomacorrientes para herramientas portátiles como aspiradoras o pulidoras. Se recomienda el uso de apagadores de tres vías, especialmente en pasillos largos o escaleras, para controlar la luz desde diferentes puntos.
       .row(titulo="Patios y jardines")
         .col-md-12.mb-4.mb-md-0
-          p Si la vivienda cuenta con patio o jardín, se debe incluir iluminación exterior con control desde el interior o exterior de la vivienda. Además, se instalan tomas a prueba de agua (intemperie) para conectar herramientas como cortadoras de césped o taladros. También pueden requerirse salidas especiales para bombas de agua o iluminación decorativa mediante luminarias tipo spot.
+          p Si la vivienda cuenta con patio o jardín, se debe incluir iluminación exterior con control desde el interior o exterior de la vivienda. Además, se instalan tomas a prueba de agua (intemperie) para conectar herramientas como cortadoras de césped o taladros. También pueden requerirse salidas especiales para bombas de agua o iluminación decorativa mediante luminarias tipo #[em spot].
 
     .row.justify-content-start.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12

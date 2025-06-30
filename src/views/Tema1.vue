@@ -76,10 +76,11 @@
               i.fas.fa-circle-check
               p La elección de los equipos de gestión energética y de medición.
 
-      .row.justify-content-center.align-items-center.mb-5.bg6.p-4
-        .col-lg-12
-          h5 La demanda de una carga o de un conjunto de cargas corresponde a una estimación, ya sea de tipo estadístico o práctico, de la máxima exigencia que dichas cargas imponen sobre la fuente de suministro eléctrico. Para realizar un cálculo preciso de esta demanda, es fundamental considerar el tipo de ocupación de la edificación, ya sea residencial, comercial o institucional, como en el caso de viviendas, hoteles, hospitales o instalaciones que requieren equipos eléctricos específicos, ya que cada uso implica características y necesidades energéticas particulares.
-
+      .row.justify-content-center.align-items-center.mb-5.bg6
+        .col-lg-10.p-2
+          p La demanda de una carga o de un conjunto de cargas corresponde a una estimación, ya sea de tipo estadístico o práctico, de la máxima exigencia que dichas cargas imponen sobre la fuente de suministro eléctrico. Para realizar un cálculo preciso de esta demanda, es fundamental considerar el tipo de ocupación de la edificación, ya sea residencial, comercial o institucional, como en el caso de viviendas, hoteles, hospitales o instalaciones que requieren equipos eléctricos específicos, ya que cada uso implica características y necesidades energéticas particulares.
+        .col-lg-2.d-none.d-lg-block
+          img.der(src='@/assets/curso/temas/Tema1/img16.png', alt='')
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 2.
         span   Aire acondicionado
@@ -156,10 +157,10 @@
                   i.fas.fa-circle-check
                   p #[b Alternativa No. 4.] También basada en la sección 220, parte c, artículo 220-37.
               
-      .row.justify-content-center.align-items-center.p-4
+      .row.justify-content-center.align-items-center.bg6
         .col-lg-2.d-none.d-lg-block 
-          img(src="@/assets/curso/temas/Tema1/IMG14.png")
-        .col-lg-10.bg6.p-4
+          img.izq(src="@/assets/curso/temas/Tema1/IMG14.png")
+        .col-lg-10.bg6.p-3
           p A continuación, se detalla la aplicación de la alternativa No. 1, por ser la de mayor difusión y uso en el contexto nacional. Si bien las alternativas No. 2 y No. 3 son técnicamente válidas, no se ajustan completamente a las características de la vivienda típica colombiana. Por su parte, la alternativa No. 4 está ampliamente abordada en textos técnicos y normativas sobre sistemas de distribución eléctrica.
   
   
@@ -179,7 +180,7 @@
                     .col-md-12.mb-4.mb-md-0.col-lg-6
                       h4 Determinar el área total de la vivienda
                       p El primer paso consiste en calcular la superficie total de la vivienda en metros cuadrados (m²), utilizando las dimensiones exteriores de la construcción.
-                      p.bg33.p-4 Importante: no se deben incluir áreas como porches abiertos, balcones descubiertos o espacios sin terminar que no puedan ser usados funcionalmente en el futuro.
+                      p.bg33.p-4 #[b Importante:] no se deben incluir áreas como porches abiertos, balcones descubiertos o espacios sin terminar que no puedan ser usados funcionalmente en el futuro.
                     .col-md-8.col-lg-4
                       figure
                         img(src='@/assets/curso/temas/Tema1/img07.png', alt='')
@@ -197,10 +198,9 @@
                           i.fas.fa-circle-check
                           p Multiplica el área total de la vivienda por 32 VA/m² para obtener la carga base de iluminación.
 
-                      p Este valor representa la demanda mínima requerida, sin importar cómo se distribuyan los puntos de luz o los tomacorrientes.
+                      p Este valor representa la #[b demanda mínima requerida], sin importar cómo se distribuyan los puntos de luz o los tomacorrientes.
                     .col-md-12.p-4.bg33.col-lg-4
-                      h5.mb-4 Aplicación práctica:
-                      p En viviendas unifamiliares, bifamiliares, multifamiliares y en habitaciones de hoteles o moteles, se entiende que las salidas para alumbrado general incluyen tanto la iluminación como los tomacorrientes de uso general (de hasta 20 A) que no estén destinados a pequeños electrodomésticos específicos.
+                      p.mb-4 #[b Aplicación práctica:] en viviendas unifamiliares, bifamiliares, multifamiliares y en habitaciones de hoteles o moteles, se entiende que las salidas para alumbrado general incluyen tanto la iluminación como los tomacorrientes de uso general (de hasta 20 A) que no estén destinados a pequeños electrodomésticos específicos.
                  
                   .row.justify-content-center.align-items-center(titulo="Paso 3")
                     .col-md-12.mb-4.mb-md-0.col-lg-7
@@ -215,7 +215,7 @@
                           i.fas.fa-circle-check
                           p Por lo tanto, el mínimo a considerar para esta sección es 3000 VA (1500 VA × 2).
 
-                      p.bg33.p-4 Recomendación: en viviendas con diseños más complejos o no estandarizados, se sugiere evaluar cada caso de forma particular para definir cuántos circuitos son realmente necesarios.
+                      p.bg33.p-4 #[b Recomendación:] en viviendas con diseños más complejos o no estandarizados, se sugiere evaluar cada caso de forma particular para definir cuántos circuitos son realmente necesarios.
                     .col-md-8.col-lg-4
                       figure
                       img(src='@/assets/curso/temas/Tema1/img08.png', alt='')
@@ -269,7 +269,7 @@
                       figure
                       img.mb-3(src='@/assets/curso/temas/Tema1/img09.png', alt='')
                     .col-md-11
-                      h5.bg33.p-3 Estas cargas deben calcularse con base en el diseño general del conjunto residencial.
+                      p.text-center.bg33.p-3 Estas cargas deben calcularse con base en el diseño general del conjunto residencial.
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 6")
                     .col-md-12.mb-4.mb-md-0.col-lg-7
@@ -300,7 +300,7 @@
                       figure
                       img.mb-3(src='@/assets/curso/temas/Tema1/img10.png', alt='')
                     .col-md-11
-                      h5.bg33.p-3 El cuadro es fundamental para los cálculos eléctricos detallados, el diseño de los sistemas de distribución interna, la selección de protecciones y conductores, y la elaboración de los presupuestos del proyecto eléctrico.
+                      p.text-center.bg33.p-3 El cuadro es fundamental para los cálculos eléctricos detallados, el diseño de los sistemas de distribución interna, la selección de protecciones y conductores, y la elaboración de los presupuestos del proyecto eléctrico.
   
                   .row.justify-content-center.align-items-center(titulo="Paso 7")
                     .col-md-11.mb-4.mb-md-0
@@ -310,18 +310,19 @@
                       ul.lista-ul--color
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
-                          p Suma las cargas correspondientes al alumbrado (Paso 2), pequeños artefactos (Paso 3) y cargas especiales como lavandería, equipos de cómputo y calentador de agua (Paso 4).
+                          p Suma las cargas correspondientes al alumbrado (paso 2), pequeños artefactos (paso 3) y cargas especiales como lavandería, equipos de cómputo y calentador de agua (paso 4).
 
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
                           p Aplica los factores de demanda establecidos para cada grupo de carga según su uso y cantidad.
 
 
+
                         li.d-flex.mb-0
                           i.fas.fa-circle-check
                           p El resultado será la demanda máxima probable que debe usarse como base para el dimensionamiento de la acometida eléctrica, protecciones principales y transformadores (si aplica).
                     .col-md-11
-                      h5.bg33.p-3 Este paso permite optimizar los recursos del sistema eléctrico, evitando sobredimensionamientos y garantizando la seguridad y eficiencia de la instalación.
+                      p.text-center.bg33.p-3 Este paso permite optimizar los recursos del sistema eléctrico, evitando sobredimensionamientos y garantizando la seguridad y eficiencia de la instalación.
   
       .row.justify-content-center.align-items-center.bg6.p-4.mb-5
         .col-lg-12
@@ -524,13 +525,12 @@
             th.text-regular Exceso de 120.000 VA
             th.text-regular 25 %
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5.bg55
         .col-lg-2.d-none.d-lg-block
-          img(src="@/assets/curso/temas/Tema1/img15.png")
-        .col-lg-10.bg55
-          br
+          img.izq(src="@/assets/curso/temas/Tema1/img15.png")
+        .col-lg-10.p-1
           p La Norma Técnica Colombiana NTC 2050 establece los lineamientos técnicos para el diseño e implementación de instalaciones eléctricas en Colombia. Entre sus contenidos, la Tabla 220-11 especifica los factores de demanda que deben aplicarse a las cargas de alumbrado general en edificaciones.
-          p.mb-4 Para consultar esta tabla y demás apartados de la norma, se recomienda adquirir el documento directamente a través de fuentes oficiales, como ICONTEC. Es importante tener en cuenta que la NTC 2050 está protegida por derechos de autor, por lo cual su distribución no autorizada puede estar restringida. Obtenerla de manera legítima garantiza el acceso a su versión actualizada y válida.
+          p Para consultar esta tabla y demás apartados de la norma, se recomienda adquirir el documento directamente a través de fuentes oficiales, como ICONTEC. Es importante tener en cuenta que la NTC 2050 está protegida por derechos de autor, por lo cual su distribución no autorizada puede estar restringida. Obtenerla de manera legítima garantiza el acceso a su versión actualizada y válida.
 
 
       .row.justify-content-center.align-items-center.mb-5
