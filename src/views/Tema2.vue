@@ -79,7 +79,7 @@
                 .row.justify-content-between.align-items-center.mb-0
                   .col.mb-3.mb-sm-0
                     .py-2
-                    h4.text-white.mb-5  Para complementar esta información revise los siguientes PDFs
+                    h4.text-white.mb-5  Para complementar esta información revise los siguientes PDF
                     
                 .row.justify-content-between.align-items-center.mb-3
                   .col.mb-3.mb-sm-0  

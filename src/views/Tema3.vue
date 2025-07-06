@@ -29,35 +29,35 @@
           SlyderA(tipo="b").bgc-slyder_blanco.p-5
             .row
               .col-md-12.mb-4.mb-md-0
-                h5.mb-4 a)	Símbolos eléctricos:
+                h5.mb-4 a)	Símbolos eléctricos
                 p Representaciones gráficas normalizadas que identifican componentes como interruptores, tomas, luminarias, tableros, entre otros.
             .row  
               .col-md-12.mb-4.mb-md-0
-                h5.mb-4 b)	Localización en planta de servicios:
+                h5.mb-4 b)	Localización en planta de servicios
                 p Ubicación exacta de los elementos eléctricos dentro del plano arquitectónico.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5.mb-4 c)	Rutas de acometida de media y baja tensión:
+                h5.mb-4 c)	Rutas de acometida de media y baja tensión
                 p Trazado de las líneas de suministro eléctrico desde la fuente hasta los puntos de consumo.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5 d)	Plantas para sistemas eléctricos y afines:
+                h5 d)	Plantas para sistemas eléctricos y afines
                 p Planos complementarios que incluyen redes especiales como voz, datos, seguridad o automatización.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5 e)	Cuadros de carga:
+                h5 e)	Cuadros de carga
                 p Tablas que resumen la demanda eléctrica por circuito o por área.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5 f)	Diagrama unifilar:
+                h5 f)	Diagrama unifilar
                 p Esquema simplificado que muestra las conexiones eléctricas principales de forma lineal y jerárquica.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5 g)	Dimensionamiento de equipos y espacios:
+                h5 g)	Dimensionamiento de equipos y espacios
                 p Determinación de capacidades eléctricas y de los espacios físicos necesarios para su instalación.
             .row
               .col-md-12.mb-4.mb-md-0
-                h5 h)	Detalles constructivos:
+                h5 h)	Detalles constructivos
                 p Información específica sobre métodos de instalación, materiales y soluciones técnicas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")

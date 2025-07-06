@@ -44,7 +44,7 @@
           h5 Figura 1.
           span  Electrificación y tecnología
         .col-lg-8.col-11.col-md-9
-          img.mb-3(src='@/assets/curso/temas/Tema1/img02.png', alt='La imagen representa una estructura de torre de transmisión eléctrica junto a un poste de alumbrado público encendido, en un entorno que sugiere la interacción entre infraestructura eléctrica y sistemas tecnológicos urbanos.')  
+          img.mb-3(src='@/assets/curso/temas/Tema1/img02.png', alt='Representa una estructura de torre de transmisión eléctrica junto a un poste de alumbrado público encendido, en un entorno que sugiere la interacción entre infraestructura eléctrica y sistemas tecnológicos urbanos.')  
          
 
       .row.justify-content-center.mb-3
@@ -168,7 +168,7 @@
         .col-sm-12.col-lg-12
           .d-flex.align-items-center.mt-5
             img.w-card-icon(src="@/assets/curso/temas/Tema1/rayo.png")
-            h3.bg7.py-2.w-card-text2.text-white Alternativa 1. Pasos para calcular la demanda eléctrica de una vivienda
+            h3.bg7.py-2.w-card-text2.text-white Alternativa No 1. Pasos para calcular la demanda eléctrica de una vivienda
   
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.p-4.bgc-3
@@ -343,8 +343,8 @@
           h4.mb-0 Diseño eléctrico de una vivienda
         table
           tr
-            th.text-regular Elemento del diseño
-            th.text-regular.izq  Descripción / Requisito según NTC 2050
+            th Elemento del diseño
+            th.izq  Descripción / Requisito según NTC 2050
             th Referencia NTC 2050
           tr
             th.text-regular  Cálculo de carga
@@ -400,10 +400,6 @@
             th.text-regular.izq Debe ubicarse en un lugar accesible, fuera de zonas húmedas.
             th.text-regular Art. 240.24
           tr
-            th.text-regular Tablero de distribución
-            th.text-regular.izq Debe ubicarse en un lugar accesible, fuera de zonas húmedas.
-            th.text-regular Art. 240.24
-          tr
             th.text-regular Canalizaciones
             th.text-regular.izq Uso de tubería PVC, EMT, o canaletas, según el ambiente.
             th.text-regular Art. 352, 358
@@ -431,7 +427,7 @@
                 .row
                   .col-md-11
                     h4 NEC
-                    p #[em National Electrical Code], base técnica para la NTC 2050.
+                    p National Electrical Code, base técnica para la NTC 2050.
 
                 .row
                   .col-md-11
@@ -545,7 +541,7 @@
                     h4.text-white.mb-1 ICONTEC
                 .row.align-items-center
                   .col.mb-0.mb-sm-0  
-                    p.mb-3.amarillo Para adquirirla puede visitar la página de ICONTEC 
+                    p.mb-3.amarillo Para adquirirla puede visitar la página de ICONTEC.
                   .col-sm-auto.col-lg-4
                     a.boton.color-acento-botones.texto-blanco(href="https://www.icontec.org/" target="_blank")
                       span Enlace web
@@ -670,7 +666,7 @@
 
                         li.d-flex
                           i.fas.fa-circle-check
-                          p Ejemplo: 21.33 / 20 = 1.066
+                          p Ejemplo: 21.33 / 20 = 1.066.
                   
                   .row.justify-content-center.align-items-center(titulo="Paso 7")
                     .col-md-12.mb-4.mb-md-0.col-lg-12
@@ -744,7 +740,7 @@
                       .denominator 
                         span.r 15 A
                     span.equals  = 
-                    span.v2 7,73
+                    span.v2 7.73
             
         p.text-center De acuerdo con la corriente calculada la vivienda deberá contar con:      
       

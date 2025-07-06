@@ -290,7 +290,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' S I N   A S I G N A C I O N',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -300,12 +300,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' S I N   A S I G N A C I O N',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'S I N   A S I G N A C I O N ',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
