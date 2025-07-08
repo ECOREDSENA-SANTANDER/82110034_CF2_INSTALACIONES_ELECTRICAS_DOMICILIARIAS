@@ -97,7 +97,7 @@
         span  Distribución del contenido del plano
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-8
-          img.mb-2(src="@/assets/curso/temas/Tema3/figura5.svg", alt=' La figura representa la organización del contenido en un plano eléctrico. En el centro se ubica el espacio destinado a los planos con la instalación eléctrica, acompañado por elementos complementarios como convenciones, cuadro de cargas, especificaciones y equipos de medida. En la parte inferior se incluyen las notas aclaratorias, y a la derecha se encuentran los datos informativos de la obra, tales como nombre, dirección, responsables, firma, matrícula y fecha. Esta distribución facilita la interpretación técnica y administrativa del plano.')
+          img.mb-2(src="@/assets/curso/temas/Tema3/figura5.svg", alt='Representa la organización del contenido en un plano eléctrico. En el centro se ubica el espacio destinado a los planos con la instalación eléctrica, acompañado por elementos complementarios como convenciones, cuadro de cargas, especificaciones y equipos de medida. En la parte inferior se incluyen las notas aclaratorias, y a la derecha se encuentran los datos informativos de la obra, tales como nombre, dirección, responsables, firma, matrícula y fecha. Esta distribución facilita la interpretación técnica y administrativa del plano.')
           figcaption Fuente: Mejía Jorge (2013)
     
     .row.justify-content-start.mb-5(data-aos="zoom-in-left")
@@ -122,7 +122,7 @@
         span Símbolos de electricidad
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-8
-          img.mb-2(src="@/assets/curso/temas/Tema3/figura6.svg", alt='La figura presenta una tabla con diversos símbolos utilizados en electricidad, distribuidos en filas y columnas. Cada símbolo está acompañado por su respectivo nombre, lo que facilita su identificación y comprensión. Incluye representaciones gráficas de elementos como protecciones, conductores, interruptores, conectores, tomacorrientes, transformadores, subestaciones, entre otros componentes eléctricos. Estos símbolos permiten la lectura e interpretación de planos eléctricos y diagramas técnicos.')
+          img.mb-2(src="@/assets/curso/temas/Tema3/figura6.svg", alt='Presenta una tabla con diversos símbolos utilizados en electricidad, distribuidos en filas y columnas. Cada símbolo está acompañado por su respectivo nombre, lo que facilita su identificación y comprensión. Incluye representaciones gráficas de elementos como protecciones, conductores, interruptores, conectores, tomacorrientes, transformadores, subestaciones, entre otros componentes eléctricos. Estos símbolos permiten la lectura e interpretación de planos eléctricos y diagramas técnicos.')
           figcaption Fuente: Proferodrix (2014)
 
 

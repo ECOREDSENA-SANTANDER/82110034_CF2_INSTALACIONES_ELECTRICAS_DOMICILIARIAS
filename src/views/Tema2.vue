@@ -47,7 +47,7 @@
         h5 Figura 4. 
         span  Plano arquitectónico
       .col-lg-8.col-11.col-md-9
-        img.mb-3(src='@/assets/curso/temas/t2/plano.png', alt='La figura presenta el plano arquitectónico de una vivienda unifamiliar que incluye las áreas principales distribuidas en una sola planta. Se identifican espacios como sala de estar, comedor, cocina, baños y habitaciones.')  
+        img.mb-3(src='@/assets/curso/temas/t2/plano.png', alt='Presenta el plano arquitectónico de una vivienda unifamiliar que incluye las áreas principales distribuidas en una sola planta. Se identifican espacios como sala de estar, comedor, cocina, baños y habitaciones.')  
 
     .row.justify-content-start.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12

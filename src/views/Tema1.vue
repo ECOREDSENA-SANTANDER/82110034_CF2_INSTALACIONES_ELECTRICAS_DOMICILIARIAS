@@ -457,7 +457,7 @@
           h5 Figura 3. 
           span Ejemplo cuadro de cargas para vivienda (80 m²)
         .col-lg-10
-          img.mb-3(src='@/assets/curso/temas/Tema1/figura3.svg', alt='La figura presenta un cuadro de cargas eléctricas estimadas para una vivienda de 80 m². Se detallan diferentes categorías de consumo, como alumbrado general, pequeños artefactos, cargas especiales y servicios generales, junto con su descripción, cantidad, potencia unitaria y potencia total en VA. El total estimado de carga es de 23.560 VA, equivalente a 23,56 KVA. ')  
+          img.mb-3(src='@/assets/curso/temas/Tema1/figura3.svg', alt='Presenta un cuadro de cargas eléctricas estimadas para una vivienda de 80 m². Se detallan diferentes categorías de consumo, como alumbrado general, pequeños artefactos, cargas especiales y servicios generales, junto con su descripción, cantidad, potencia unitaria y potencia total en VA. El total estimado de carga es de 23.560 VA, equivalente a 23,56 KVA. ')  
 
       .row.justify-content-center.align-items-end.mb-5.bg33.p-4
         .col-lg-8
