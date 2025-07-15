@@ -47,7 +47,7 @@
         h5 Figura 4. 
         span  Plano arquitectónico
       .col-lg-8.col-11.col-md-9
-        img.mb-3(src='@/assets/curso/temas/t2/plano.png', alt='Presenta el plano arquitectónico de una vivienda unifamiliar que incluye las áreas principales distribuidas en una sola planta. Se identifican espacios como sala de estar, comedor, cocina, baños y habitaciones.')  
+        img.mb-3(src='@/assets/curso/temas/t2/plano.png', alt='Presenta el plano arquitectónico de una vivienda unifamiliar que incluye las áreas principales distribuidas en una sola planta. Se identifican espacios como sala de estar, comedor, cocina, baños, habitaciones.')  
 
     .row.justify-content-start.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-lg-12
@@ -61,7 +61,7 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/t2/1.jpg')})`}")
       .bloque-texto-g__texto.p-4.py-lg-5
         br
-        p.mb-5 El primer paso para diseñar y calcular una instalación eléctrica en una vivienda es contar con el plano arquitectónico de planta. Este plano debe estar a escala y mostrar con claridad todas las áreas de la casa: número y ubicación de habitaciones, sala, comedor, pasillos, cocina, baños, patio, jardines, entre otros espacios. Estos elementos varían según el tipo de vivienda sea unifamiliar o multifamiliar, ya que cada una presenta diferentes necesidades eléctricas.
+        p.mb-5 El primer paso para diseñar y calcular una instalación eléctrica en una vivienda es contar con el plano arquitectónico de planta. Este plano debe estar a escala y mostrar con claridad todas las áreas de la casa: número y ubicación de habitaciones, sala, comedor, pasillos, cocina, baños, patio, jardines, entre otros espacios. Estos elementos varían según el tipo de vivienda, sea unifamiliar o multifamiliar, ya que cada una presenta diferentes necesidades eléctricas.
         br
         br
 

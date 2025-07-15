@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -67,7 +67,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -90,7 +90,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -113,7 +113,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -136,7 +136,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -182,7 +182,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -205,7 +205,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },
@@ -251,7 +251,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Felicitaciones! Ha captado con claridad los conceptos básicos de electricidad. ',
+            '¡Felicitaciones! Ha captado con claridad los conceptos de Cálculo de cargas eléctricas.',
           mensaje_incorrecto:
             'Respuesta incorrecta, revise nuevamente el contenido del componente formativo. ',
         },

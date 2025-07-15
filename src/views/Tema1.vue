@@ -86,7 +86,7 @@
         span   Aire acondicionado
       .row.bgc-2.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
         .col-lg-8.col-11.col-md-9
-          img.mb-5(src='@/assets/curso/temas/Tema1/img04.png', alt='Un sistema de aire acondicionado está en funcionamiento en una sala moderna y ordenada. Indica que el equipo está enfriando o ventilando el ambiente. El espacio está decorado con elementos sencillos y funcionales, lo que resalta un diseño interior minimalista y confortable.')  
+          img.mb-5(src='@/assets/curso/temas/Tema1/img04.png', alt='Un sistema de aire acondicionado está en funcionamiento en una sala moderna y ordenada. Indica que el equipo está enfriando o ventilando el ambiente. El espacio está decorado con elementos sencillos y funcionales, lo que resalta un diseño interior minimalista y confortable. ')  
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3.col-8.col-md-6
@@ -326,12 +326,12 @@
   
       .row.justify-content-center.align-items-center.bg6.p-4.mb-5
         .col-lg-12
-          h5 Nota: si desea profundizar en esta información, puede adquirir en la página de ICONTEC. Las diferentes normas y leyes citadas dentro del componente; aunque debe tener presente que tienen un costo dentro de esa página.     
+          h5 Nota: si desea profundizar en esta información, puede adquirir en la página de ICONTEC, las diferentes normas y leyes citadas dentro del componente; aunque debe tener presente que tienen un costo dentro de esa página.     
           h5 Sin embargo, al interior de este componente se proporciona contenido clave que le permitirá comprender el proceso de diseño de instalaciones eléctricas.
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
-          p Para complementar la temática expuesta, diríjase a la siguiente tabla resumen del diseño eléctrico de una vivienda conforme a la NTC 2050, que es la norma colombiana basada en el NEC (National Electrical Code). Estos aspectos se consideran los más importantes que se deben tener en cuenta en el diseño eléctrico residencial.
+          p Para complementar la temática expuesta, diríjase a la siguiente tabla resumen del diseño eléctrico de una vivienda conforme a la NTC 2050, que es la norma colombiana basada en el NEC (#[em National Electrical Code]). Estos aspectos se consideran los más importantes que se deben tener en cuenta en el diseño eléctrico residencial.
   
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-down")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -427,7 +427,7 @@
                 .row
                   .col-md-11
                     h4 NEC
-                    p National Electrical Code, base técnica para la NTC 2050.
+                    p #[em National Electrical Code], base técnica para la NTC 2050.
 
                 .row
                   .col-md-11
@@ -700,7 +700,7 @@
           .col-lg-5
             .tarjeta.bg55.p-3.mb-3
               .row.justify-content-center
-                .col-lg-7.col-md-6.col-6.fw-bold
+                .col-lg-8.col-md-7.col-7.fw-bold
                   div.formula-container
                     span.v2 200 m X 32
                     .fraction
@@ -716,7 +716,7 @@
         .col-lg-4
           .tarjeta.bg55.p-3.mb-4
             .row.justify-content-center.align-items-center
-              .col-lg-6.col-md-6.col-6.fw-bold
+              .col-lg-7.col-md-7.col-7.fw-bold
                 div.formula-container
                   .fraction
                     .numerator
@@ -740,7 +740,7 @@
                       .denominator 
                         span.r 15 A
                     span.equals  = 
-                    span.v2 7.73
+                    span.v2 3,73
             
         p.text-center De acuerdo con la corriente calculada la vivienda deberá contar con:      
       
@@ -749,7 +749,7 @@
           ul.lista-ul--color
             li.d-flex.mb-0
               i.fas.fa-circle-check
-              p 4 circuitos ramales de 15 A cada uno o.
+              p 4 circuitos ramales de 15 A cada uno.
             li.d-flex.mb-0
               i.fas.fa-circle-check
               p 3 circuitos ramales de 20 A cada uno para alumbrado.
