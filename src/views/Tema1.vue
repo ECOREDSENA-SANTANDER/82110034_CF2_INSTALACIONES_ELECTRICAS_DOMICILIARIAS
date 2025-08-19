@@ -680,81 +680,81 @@
                           i.fas.fa-circle-check
                           p En el ejemplo: 1.066 se redondea a 2 circuitos ramales como mínimo.
 
-
-      p.mb-4 Este procedimiento garantiza que la instalación eléctrica esté dimensionada correctamente, que no se sobrecarguen los circuitos y que se cumpla con las condiciones de seguridad y eficiencia.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12.bg66.p-4
+          p.mb-4.text-center.text-white Este procedimiento garantiza que la instalación eléctrica esté dimensionada correctamente, que no se sobrecarguen los circuitos y que se cumpla con las condiciones de seguridad y eficiencia.
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-5
           .d-flex.align-items-center.mt-3
             h3.bg33.py-2.w-card-text Ejemplo práctico
 
-      p.mb-5 A continuación, un ejemplo para determinar circuitos ramales requeridos para un alumbrado general:
-
-
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-7
-          p Una vivienda de 200 m² requiere una carga mínima para alumbrado general de 200 m x 32.
-          p.text-center La carga que requiere la casa sería: 
-        
-        .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
-          .col-lg-5
-            .tarjeta.bg55.p-3.mb-3
-              .row.justify-content-center
-                .col-lg-8.col-md-7.col-7.fw-bold
-                  div.formula-container
-                    span.v2 200 m X 32
-                    .fraction
-                      .numerator
-                        span.r VA
-                      .denominator 
-                        span.r M
-                    span.equals  = 
-                    span.v2 6400 VA
-            
-            p Para hallar la corriente:
-               
-        .col-lg-4
-          .tarjeta.bg55.p-3.mb-4
-            .row.justify-content-center.align-items-center
-              .col-lg-7.col-md-7.col-7.fw-bold
-                div.formula-container
-                  .fraction
-                    .numerator
-                      span.r 6400 VA
-                    .denominator 
-                      span.r 115 V
-                  span.equals  = 
-                  span.v2 56 A
-            
-          p.text-center Para hallar el número de circuitos ramales:
-
-        .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
-          .col-lg-4
-            .tarjeta.bg55.p-3.mb-3
-              .row.justify-content-center
-                .col-lg-5.col-md-6.col-6.fw-bold
-                  div.formula-container
-                    .fraction
-                      .numerator
-                        span.r 54 A
-                      .denominator 
-                        span.r 15 A
-                    span.equals  = 
-                    span.v2 3,73
-            
-        p.text-center De acuerdo con la corriente calculada la vivienda deberá contar con:      
       
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5
-          ul.lista-ul--color
-            li.d-flex.mb-0
-              i.fas.fa-circle-check
-              p 4 circuitos ramales de 15 A cada uno.
-            li.d-flex.mb-0
-              i.fas.fa-circle-check
-              p 3 circuitos ramales de 20 A cada uno para alumbrado.
+      .row.justify-content-center.mb-5
+        .col-lg-7
+          p A continuación, un ejemplo para determinar circuitos ramales requeridos para un alumbrado general:
+          p Una vivienda de 200 m² requiere una carga mínima para alumbrado general de 200 m x 32.
+          p La carga que requiere la casa sería: 
+        
+          .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
+            .col-lg-12
+              .tarjeta.bg55.p-3.mb-3
+                .row.justify-content-center
+                  .col-lg-8.col-md-7.col-12.fw-bold
+                    div.formula-container
+                      span.v2 200 m X 32
+                      .fraction
+                        .numerator
+                          span.r VA
+                        .denominator 
+                          span.r M
+                      span.equals  = 
+                      span.v2 6400 VA
+              
+              p Para hallar la corriente:
+          .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
+            .col-lg-12
+              .tarjeta.bg55.p-3.mb-3
+                .row.justify-content-center
+                  .col-lg-5.col-md-6.col-12.fw-bold
+                    div.formula-container
+                      .fraction
+                        .numerator
+                          span.r 6400 VA
+                        .denominator 
+                          span.r 115 V
+                      span.equals  = 
+                      span.v2 56 A
+                
+              p.text-center Para hallar el número de circuitos ramales:
 
-
+          .row.justify-content-center.text-center.mb-0(data-aos="fade-down")
+            .col-lg-12
+              .tarjeta.bg55.p-3.mb-3
+                .row.justify-content-center
+                  .col-lg-5.col-md-6.col-12.fw-bold
+                    div.formula-container
+                      .fraction
+                        .numerator
+                          span.r 54 A
+                        .denominator 
+                          span.r 15 A
+                      span.equals  = 
+                      span.v2 7,73
+              
+          p De acuerdo con la corriente calculada la vivienda deberá contar con:      
+        
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-12
+              ul.lista-ul--color
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p 4 circuitos ramales de 15 A cada uno.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p 3 circuitos ramales de 20 A cada uno para alumbrado.
+        .col-lg-5.col-md-5.col-7
+          img(src='@/assets/curso/temas/Tema1/img17.png', alt='')
 
 </template>
 
