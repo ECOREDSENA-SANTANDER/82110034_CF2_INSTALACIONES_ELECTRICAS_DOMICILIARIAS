@@ -137,13 +137,13 @@ empalme" transform="translate(463.051 3431)" fill="#12263f" font-size="16" font-
     <text id="DPS_tipo_varistor" data-name="DPS tipo varistor" transform="translate(463.051 3573)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-60.035" y="0">DPS tipo varistor</tspan></text>
     <text id="Interruptor_bipolar" data-name="Interruptor
 bipolar" transform="translate(463.051 3678)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-38.145" y="0">Interruptor</tspan><tspan x="-24.789" y="16">bipolar</tspan></text>
-    <text id="Tomacorriente_monofasico_arquitectónico_" data-name="Tomacorriente
-monofasico
-(arquitectónico)" transform="translate(463.051 3783)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-51.992" y="0">Tomacorriente</tspan><tspan x="-42.598" y="16">monofasico</tspan><tspan x="-57.18" y="32">(arquitectónico)</tspan></text>
+    <text id="Tomacorriente_monofásico_arquitectónico_" data-name="Tomacorriente
+monofásico
+(arquitectónico)" transform="translate(463.051 3783)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-51.992" y="0">Tomacorriente</tspan><tspan x="-42.598" y="16">monofásico</tspan><tspan x="-57.18" y="32">(arquitectónico)</tspan></text>
     <text id="Extintor_para_equipo_eléctrico" data-name="Extintor para
 equipo eléctrico" transform="translate(465.051 3911)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-45.457" y="0">Extintor para</tspan><tspan x="-57.449" y="16">equipo eléctrico</tspan></text>
-    <text id="Contacto_sin_disparo_automatico" data-name="Contacto sin
-disparo automatico" transform="translate(466.051 4039)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-41.593" y="0">Contacto sin</tspan><tspan x="-63.904" y="16">disparo automatico</tspan></text>
+    <text id="Contacto_sin_disparo_automático" data-name="Contacto sin
+disparo automático" transform="translate(466.051 4039)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-41.593" y="0">Contacto sin</tspan><tspan x="-63.904" y="16">disparo automático</tspan></text>
     <text id="Tomacorriente_símbolo_general" data-name="Tomacorriente
 símbolo general" transform="translate(461.051 4153)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-51.992" y="0">Tomacorriente</tspan><tspan x="-57.477" y="16">símbolo general</tspan></text>
     <text id="Tomacorriente_trifásico_arquitectónico_" data-name="Tomacorriente
@@ -160,17 +160,17 @@ de aislamiento" transform="translate(1004.051 4150)" fill="#12263f" font-size="1
 de seguridad" transform="translate(1138.051 4150)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-53.578" y="0">Transformador</tspan><tspan x="-46.418" y="16">de seguridad</tspan></text>
     <text id="Contacto_operado_manualmente" data-name="Contacto operado
 manualmente" transform="translate(733.051 4039)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-59.138" y="0">Contacto operado</tspan><tspan x="-46.011" y="16">manualmente</tspan></text>
-    <text id="Dispositivo_de_proteccion_Contra_tensiones" data-name="Dispositivo de
-proteccion
-Contra tensiones" transform="translate(867.051 4024)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-46.426" y="0">Dispositivo de</tspan><tspan x="-35.225" y="16">proteccion</tspan><tspan x="-56.102" y="32">Contra tensiones</tspan></text>
+    <text id="Dispositivo_de_protección_Contra_tensiones" data-name="Dispositivo de
+protección
+Contra tensiones" transform="translate(867.051 4024)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-46.426" y="0">Dispositivo de</tspan><tspan x="-35.225" y="16">protección</tspan><tspan x="-56.102" y="32">Contra tensiones</tspan></text>
     <text id="Interruptor_unipolar_con_tiempo_de_cierre_limitado" data-name="Interruptor unipolar
 con tiempo de
 cierre limitado" transform="translate(1138.051 4026)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-63.236" y="0">Interruptor unipolar</tspan><tspan x="-47.16" y="16">con tiempo de</tspan><tspan x="-47.028" y="32">cierre limitado</tspan></text>
     <text id="Interruptor_con_luz_piloto" data-name="Interruptor
 con luz piloto" transform="translate(1008.051 4037)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-38.145" y="0">Interruptor</tspan><tspan x="-47.93" y="16">con luz piloto</tspan></text>
-    <text id="Contacto_con_disparo_automatico_corte" data-name="Contacto con
-disparo automatico
-corte" transform="translate(599.051 4028)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-44.164" y="0">Contacto con</tspan><tspan x="-63.904" y="16">disparo automatico</tspan><tspan x="-17.423" y="32">corte</tspan></text>
+    <text id="Contacto_con_disparo_automático_corte" data-name="Contacto con
+disparo automático
+corte" transform="translate(599.051 4028)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.04em"><tspan x="-44.164" y="0">Contacto con</tspan><tspan x="-63.904" y="16">disparo automático</tspan><tspan x="-17.423" y="32">corte</tspan></text>
     <text id="Generador" transform="translate(601.051 3917)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-37.387" y="0">Generador</tspan></text>
     <text id="Parada_de_emergencia" data-name="Parada de
 emergencia" transform="translate(735.051 3917)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-36.066" y="0">Parada de</tspan><tspan x="-42.121" y="16">emergencia</tspan></text>
@@ -195,9 +195,9 @@ termomagnético" transform="translate(869.051 3678)" fill="#12263f" font-size="1
     <text id="Seccionador" transform="translate(1137.051 3678)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-44.754" y="0">Seccionador</tspan></text>
     <text id="Interruptor_unipolar_de_dos_vías" data-name="Interruptor
 unipolar de dos vías" transform="translate(1004.051 3678)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="-0.058em"><tspan x="-33.505" y="0">Interruptor</tspan><tspan x="-62.864" y="16">unipolar de dos vías</tspan></text>
-    <text id="Interruptor_selecionador_para_AT" data-name="Interruptor
-selecionador
-para AT" transform="translate(734.051 3662)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-38.145" y="0">Interruptor</tspan><tspan x="-46.203" y="16">selecionador</tspan><tspan x="-27.559" y="32">para AT</tspan></text>
+    <text id="Interruptor_seleccionador_para_AT" data-name="Interruptor
+seleccionador
+para AT" transform="translate(734.051 3662)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-38.145" y="0">Interruptor</tspan><tspan x="-50.391" y="16">seleccionador</tspan><tspan x="-27.559" y="32">para AT</tspan></text>
     <text id="Empalme" transform="translate(733.051 3563)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-33.613" y="0">Empalme</tspan></text>
     <text id="Fusible" transform="translate(867.051 3563)" fill="#12263f" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-25.766" y="0">Fusible</tspan></text>
     <text id="Cargador_de_sobretensiones" data-name="Cargador de
