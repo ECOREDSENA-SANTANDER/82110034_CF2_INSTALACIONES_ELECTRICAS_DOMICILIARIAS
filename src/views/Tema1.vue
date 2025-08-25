@@ -106,7 +106,7 @@
                   .col.mb-3.mb-sm-0  
                     p.mb-1.text-white Reglamento Técnico de Instalaciones Eléctricas, RETIE.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/Reglamento%20tecnico%20RETIE.pdf?csf=1&web=1&e=x1RS0I" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Reglamento_tecnico_RETIE.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -114,7 +114,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Desarrollo de programa para cálculos de cargas térmicas en edificaciones.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/DESARROLLO%20PROGRAMA%20PARA%20CALCULO%20DE%20CARGAS%20TERMICAS%20EN%20EDIFICACIONES.pdf?csf=1&web=1&e=dLbgOY" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/DESARROLLO_PROGRAMA_PARA_CALCULO_DE_CARGAS_TERMICAS_EN_EDIFICACIONES.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -122,7 +122,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Marco regulatorio sector energético en Colombia.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/marco_regulatorio_sector_energia.pdf?csf=1&web=1&e=kqMJkb" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/marco_regulatorio_sector_energia.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
       
