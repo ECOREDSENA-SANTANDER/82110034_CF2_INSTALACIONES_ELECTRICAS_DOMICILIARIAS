@@ -85,7 +85,7 @@
                   .col.mb-3.mb-sm-0  
                     p.mb-1.text-white Guía de gestión energética en el sector hotelero.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/guia-de-gestion-energetica-en-el-sector-hotelero-fenercom.pdf?csf=1&web=1&e=xEhUpx" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/guia_de_gestion_energetica_en_el_sector_hotelero_fenercom.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -93,7 +93,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Guía de diseño de instalaciones eléctricas.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/guia-instalaciones-electricas-2008-s.e.pdf?csf=1&web=1&e=QOZ87z" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/guia_instalaciones_electricas_2008.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
@@ -101,7 +101,7 @@
                   .col.mb-3.mb-sm-0
                     p.mb-1.text-white Instalaciones eléctricas.
                   .col-sm-auto.col-lg-2
-                    a.boton.color-acento-botones.texto-blanco(href="https://sena4.sharepoint.com/:b:/r/sites/VirtualizacionRED/Documentos%20compartidos/2025/LP-Santander/COMPLEMENTARIAS/82110034-INSTALACIONES%20ELECTRICAS%20DOMICILIARIAS/1.%20FinalxVirtualizar/Contenidos/CF02/Formatos%20DI/Documentos%20DI%20ok/Enlaces%20para%20DI/instalacion_de_electrodomesticos_de_potencia.pdf?csf=1&web=1&e=ibB9pX" target="_blank")
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/instalacion_de_electrodomesticos_de_potencia.pdf')" target="_blank")
                       span Descargar
                       i.fas.fa-download
 
